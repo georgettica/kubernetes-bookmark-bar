@@ -29,7 +29,7 @@ jobs:
       - name: Run the bookmark generation code
         uses: docker://quay.io/rogreen/bookmark-generator:latest
         with:
-          args: python3 /tmp/test/bookmark_generator.py bookmark.yaml > bookmark.html
+          args: python3 /tmp/test/bookmark_generator.py -o bookmark.html bookmark.yaml 
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.2
