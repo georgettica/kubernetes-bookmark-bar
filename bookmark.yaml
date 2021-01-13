@@ -1,0 +1,119 @@
+---
+- folder: K8S
+  bookmarks:
+  - folder: "USEFUL COMMANDS/TIPS"
+    bookmarks:
+    - url: https://kubernetes.io/docs/reference/kubectl/cheatsheet/#kubectl-autocomplete
+      name: "Shell Autocomplete"
+    - url: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+      name: "cheatSheet: useful commands"
+    - url: http://kubernetes.io/docs
+      folder: "CLUSTER MGMT"
+      bookmarks:
+      - url: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+        name: "Installing kubeadm - Kubernetes"
+      - url: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
+        name: "Creating a single control-plane cluster with kubeadm - Kubernetes"
+      - url: https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/
+        name: "Configure Multiple Schedulers - Kubernetes"
+      - url: https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
+        name: "Upgrading kubeadm clusters - Kubernetes"
+      - url: https://kubernetes.io/docs/tasks/administer-cluster/cluster-ma  nagement/#maintenance-on-a-node
+        name: "drain/uncordon"
+      - url: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster
+        name: "etcd backup"
+      - url: https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
+        name: "kubeconfig"
+      - url: http://kubernetes.io/docs
+      folder: "CERTIFICATES"
+      bookmarks:
+      - url: https://kubernetes.io/docs/concepts/cluster-administration/certificates/#openssl
+        name: "openssl commands"
+      - url: https://kubernetes.io/docs/tasks/tls/ma  naging-tls-in-a-cluster/#create-a-certificate-signing-request-object-to-send-to-the-kubernetes-api
+        name: "CSR"
+      - url: http://kubernetes.io/docs
+      folder: "TAINTS/TOLERATIONS/AFFINITY"
+      bookmarks:
+      - url: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
+        name: "Taints and Tolerations - Kubernetes"
+      - url: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity
+        name: "Affinity and anti-affinity"
+      - url: http://kubernetes.io/docs
+      folder: "PODS"
+      bookmarks:
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/
+        name: "Configure Pods and Containers - Kubernetes"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/
+        name: "Create static Pods - Kubernetes"
+      - url: https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/
+        name: "env"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#define-container-environment-variables-using-configmap-data
+        name: "configMap"
+      - url: https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/#create-a-pod-that-has-access-to-the-secret-data-through-a-volume
+        name: "secret in a volume"
+      - url: https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/#define-container-environment-variables-using-secret-data
+        name: "secret in env var"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+        name: "imagePullSecrets"
+      - url: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#define-a-command-and-arguments-when-you-create-a-pod
+        name: "commands/args"
+      - url: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#step-two-add-a-nodeselector-field-to-your-pod-configuration
+        name: "nodeSelector"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-initialization/#create-a-pod-that-has-an-init-container
+        name: "initContainers"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/#specify-a-memory-request-and-a-memory-limit
+        name: "memory"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/#specify-a-cpu-request-and-a-cpu-limit
+        name: "cpu"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-pod
+        name: "securityContext"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-capabilities-for-a-container
+        name: "capabilities"
+      - url: http://kubernetes.io/docs
+      folder: "DEPLOYMENTS"
+      bookmarks:
+      - url: https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+        name: "Deployments - Kubernetes"
+      - url: http://kubernetes.io/docs
+      folder: "DAEMONSETS"
+      bookmarks:
+      - url: https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
+        name: "DaemonSet - Kubernetes"
+      - url: http://kubernetes.io/docs
+      folder: "SERVICES"
+      bookmarks:
+      - url: https://kubernetes.io/docs/concepts/services-networking/service/
+        name: "Service - Kubernetes"
+      - url: https://kubernetes.io/docs/concepts/services-networking/network-policies/#networkpolicy-resource
+        name: "NetworkPolicy Resource"
+      - url: https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/#limit-access-to-the-nginx-service
+        name: "NetworkPolicy Declaration"
+      - url: https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource
+        name: "Ingress"
+      - url: http://kubernetes.io/docs
+      folder: "STORAGE"
+      bookmarks:
+      - url: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistent-volumes
+        name: "PersistentVolume"
+      - url: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims
+        name: "PersistentVoluneClaim"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#create-a-persistentvolume
+        name: "PV, PVC and Mounting"
+      - url: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#claims-as-volumes
+        name: "Mount Volume in Container"
+      - url: https://kubernetes.io/docs/concepts/storage/volumes/#hostpath
+        name: "hostPath"
+      - url: http://kubernetes.io/docs
+      folder: "SECRETS"
+      bookmarks:
+      - url: https://kubernetes.io/docs/concepts/configuration/secret/#creating-your-own-secrets
+        name: "Secrets - Kubernetes"
+      - url: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/#registry-secret-existing-credentials
+        name: "regcred"
+      - url: http://kubernetes.io/docs
+      folder: "RBAC"
+      bookmarks:
+      - url: https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole
+        name: "Role/ClusterRole"
+      - url: https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-and-clusterrolebinding
+        name: "RoleBinding/ClusterRoleBinding"

@@ -1,0 +1,18 @@
+= kubernetes-bookmark-bar
+:toc:
+
+== Purpose
+This repository will curate all of the awesome links that are useful for kubernetes in a way that can be imported to your bookmark bar
+
+== Usage
+after getting a `bookmark.html` file. Follow your browsers bookmark import guide, and add the bookmarks.
+
+for google-chrome, you can read https://support.google.com/chrome/answer/96816
+
+== Local Deployment
+Run the `./run.sh` command in order to create a bookmark.html file you can use
+
+== References
+=== Bookmark snippet
+all of these bookmarks were taken and modified from https://gist.github.com/jonatasbaldin/4e76846ce8fb17e5d2fa64bdea594930
+
