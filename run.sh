@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -euo pipefail
-set -x
 
 CONTAINER_BASE_DIR=/tmp/test
 CONTAINER_ENGINE=${CONTAINER_ENGINE:-'docker'}
