@@ -28,7 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run the bookmark generation code
         uses: docker://quay.io/rogreen/bookmark-generator:latest
-        run: python3 bookmark_generator.py bookmark.yaml > bookmark.html
+        with:
+          args: python3 bookmark_generator.py bookmark.yaml > bookmark.html
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.2
