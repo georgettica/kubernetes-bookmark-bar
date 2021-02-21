@@ -23,6 +23,8 @@
       name: "etcd backup"
     - url: https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
       name: "kubeconfig"
+    - url: https://kubernetes.io/docs/reference/command-line-tools-reference/
+      name: "reading on command line tools"
   - folder: "CERTIFICATES"
     bookmarks:
     - url: https://kubernetes.io/docs/concepts/cluster-administration/certificates/#openssl
