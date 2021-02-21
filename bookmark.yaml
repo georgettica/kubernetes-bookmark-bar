@@ -17,7 +17,7 @@
       name: "Configure Multiple Schedulers - Kubernetes"
     - url: https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
       name: "Upgrading kubeadm clusters - Kubernetes"
-    - url: https://kubernetes.io/docs/tasks/administer-cluster/cluster-management/#maintenance-on-a-node
+    - url: https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/#use-kubectl-drain-to-remove-a-node-from-service
       name: "drain/uncordon"
     - url: https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster
       name: "etcd backup"
