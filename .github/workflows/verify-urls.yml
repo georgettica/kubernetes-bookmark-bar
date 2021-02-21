@@ -1,0 +1,19 @@
+name: Verify URL's
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  broken_link_checker_job:
+    runs-on: ubuntu-latest
+    name: Check for broken links
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2.3.4
+    - name: Check URLs
+      uses: paramt/url-checker@master
+      with:
+        files: "bookmark.yaml,README.adoc"
