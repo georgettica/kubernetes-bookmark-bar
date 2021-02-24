@@ -7,6 +7,8 @@
       name: "Shell Autocomplete"
     - url: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
       name: "cheatSheet: useful commands"
+    - url: https://kubernetes.io/docs/reference/using-api/
+      name: "kubernetes api"
   - folder: "CLUSTER MGMT"
     bookmarks:
     - url: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
