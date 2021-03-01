@@ -9,6 +9,14 @@
       name: "cheatSheet: useful commands"
     - url: https://kubernetes.io/docs/reference/using-api/
       name: "kubernetes api"
+    - url: https://kubernetes.io/docs/tasks/administer-cluster/access-cluster-api/#accessing-the-api-from-within-a-pod
+      name: "Accessing Kubernetes API from within a Pod"
+  - folder: "ADMISSION CONTROLLERS"
+    bookmarks:
+    - url: https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/
+      name: "Using Admission Controllers"
+    - url: https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/
+      name: "A Guide to Kubernetes Admission Controllers"
   - folder: "CLUSTER MGMT"
     bookmarks:
     - url: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
@@ -27,12 +35,24 @@
       name: "kubeconfig"
     - url: https://kubernetes.io/docs/reference/command-line-tools-reference/
       name: "reading on command line tools"
+    - url: https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/
+      name: "Encrypting Secret Data in Etcd"
+    - url: https://kubernetes.io/docs/tasks/debug-application-cluster/audit/
+      name: "Auditing - Kubernetes"
+    - url: https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/README.md
+      name: "Kubernetes Dashboard - Access Control"
+    - url: https://github.com/kubernetes/dashboard/blob/master/docs/common/dashboard-arguments.md
+      name: "Kubernetes Dashboard - Arguments"
+    - url: https://kubernetes.io/docs/concepts/security/controlling-access/
+      name: "Controlling Access to the Kubernetes API"
   - folder: "CERTIFICATES"
     bookmarks:
     - url: https://kubernetes.io/docs/concepts/cluster-administration/certificates/#openssl
       name: "openssl commands"
     - url: https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/#create-a-certificate-signing-request-object-to-send-to-the-kubernetes-api
       name: "CSR"
+    - url: https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/
+      name: "Creating, Approving and Rejecting Certificate Signing Requests"
   - folder: "TAINTS/TOLERATIONS/AFFINITY"
     bookmarks:
     - url: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
@@ -69,6 +89,28 @@
       name: "securityContext"
     - url: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-capabilities-for-a-container
       name: "capabilities"
+    - url: https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/
+      name: "using volumes in a pod"
+    - url: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+      name: "liveness and readiness probes"
+  - folder: "POD/CONTAINER SECURITY"
+    bookmarks:
+    - url: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
+      name: "Configure Service Account for Pods"
+    - url: https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/
+      name: "Managing Service Accounts"
+    - url: https://kubernetes.io/docs/concepts/policy/pod-security-policy/
+      name: "Pod Security Policies"
+    - url: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#podsecuritycontext-v1-core
+      name: "PodSecurityContext - API Docs"
+    - url: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+      name: "Configuring a Security Context for a Pod or Container"
+    - url: https://kubernetes.io/docs/tutorials/clusters/seccomp/
+      name: "Restrict a Container's Syscalls with Seccomp"
+    - url: https://kubernetes.io/docs/tutorials/clusters/apparmor/
+      name: "Restrict a Container's Access to Resources with AppArmor"
+    - url: https://kubernetes.io/docs/concepts/containers/runtime-class
+      name: "Customizing a Pod's Runtime Class"
   - folder: "DEPLOYMENTS"
     bookmarks:
     - url: https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
@@ -107,6 +149,14 @@
       name: "Secrets - Kubernetes"
     - url: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/#registry-secret-existing-credentials
       name: "regcred"
+  - folder: "SECURITY TOOLS"
+    bookmarks:
+    - url: https://falco.org/docs/rules/supported-fields/
+      name: "Falco - Supported Fields for Conditions and Outputs"
+    - url: https://kubernetes.io/blog/2019/08/06/opa-gatekeeper-policy-and-governance-for-kubernetes/
+      name: "OpenPolicyAgent Gatekeeper"
+    - url: https://github.com/aquasecurity/trivy
+      name: "Trivy vulnerability scanner"
   - folder: "RBAC"
     bookmarks:
     - url: https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole
