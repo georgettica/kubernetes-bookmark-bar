@@ -18,4 +18,4 @@ ${CONTAINER_ENGINE} run \
     "${IMG}" \
     python3 \
     	bookmark_generator.py \
-	data/sample.yaml > "${OUTPUT_HTML_FILE}"
+	data/bookmark.yaml > "${OUTPUT_HTML_FILE}"
