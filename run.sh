@@ -17,5 +17,5 @@ $CONTAINER_ENGINE run \
     $ADDITIONAL_CONTAINER_ENGINE_ARGS \
     "${IMG}" \
     python3 \
-    bookmark_generator.py \
-	data/sample.yaml > "${OUTPUT_HTML_FILE}"
+    	bookmark_generator.py \
+	data/bookmark.yaml > "${OUTPUT_HTML_FILE}"
