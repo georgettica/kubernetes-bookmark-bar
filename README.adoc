@@ -15,4 +15,4 @@ Run the `./run.sh` command in order to create a bookmark.html file you can use
 == References
 === Bookmark snippet
 all of these bookmarks were taken and modified from https://gist.github.com/jonatasbaldin/4e76846ce8fb17e5d2fa64bdea594930
- 
+
