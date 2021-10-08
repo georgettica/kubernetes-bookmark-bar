@@ -11,6 +11,8 @@
       name: "kubernetes api"
     - url: https://kubernetes.io/docs/tasks/administer-cluster/access-cluster-api/#accessing-the-api-from-within-a-pod
       name: "Accessing Kubernetes API from within a Pod"
+    - url: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
+      name: "kubectl commands"
   - folder: "ADMISSION CONTROLLERS"
     bookmarks:
     - url: https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/
