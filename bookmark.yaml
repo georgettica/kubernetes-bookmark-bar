@@ -41,6 +41,8 @@
       name: "Encrypting Secret Data in Etcd"
     - url: https://kubernetes.io/docs/tasks/debug-application-cluster/audit/
       name: "Auditing - Kubernetes"
+    - url: https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
+      name: "Kubernetes Dashboard - Installation"
     - url: https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/README.md
       name: "Kubernetes Dashboard - Access Control"
     - url: https://github.com/kubernetes/dashboard/blob/master/docs/common/dashboard-arguments.md
