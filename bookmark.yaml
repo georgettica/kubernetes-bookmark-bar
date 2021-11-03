@@ -133,6 +133,8 @@
       name: "NetworkPolicy Declaration"
     - url: https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource
       name: "Ingress"
+    - url: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-ingress-em-
+      name: "Create Ingress command"
   - folder: "STORAGE"
     bookmarks:
     - url: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistent-volumes
