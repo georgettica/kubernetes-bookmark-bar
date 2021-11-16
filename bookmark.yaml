@@ -10,7 +10,7 @@
     - url: https://kubernetes.io/docs/reference/using-api/
       name: "kubernetes api"
     - url: https://kubernetes.io/docs/tasks/administer-cluster/access-cluster-api/#accessing-the-api-from-within-a-pod
-      name: "Accessing Kubernetes API from within a Pod"
+      name: "Kubernetes API within a Pod"
     - url: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
       name: "kubectl commands"
   - folder: "ADMISSION CONTROLLERS"
@@ -18,13 +18,13 @@
     - url: https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/
       name: "Using Admission Controllers"
     - url: https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/
-      name: "A Guide to Kubernetes Admission Controllers"
+      name: "Admission Controllers Guide"
   - folder: "CLUSTER MGMT"
     bookmarks:
     - url: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
       name: "Installing kubeadm - Kubernetes"
     - url: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
-      name: "Creating a single control-plane cluster with kubeadm - Kubernetes"
+      name: "Single control-plane cluster with kubeadm"
     - url: https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/
       name: "Configure Multiple Schedulers - Kubernetes"
     - url: https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
@@ -56,7 +56,7 @@
     - url: https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/#create-a-certificate-signing-request-object-to-send-to-the-kubernetes-api
       name: "CSR"
     - url: https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/
-      name: "Creating, Approving and Rejecting Certificate Signing Requests"
+      name: "CSR maintanance (create, approve, deny)"
   - folder: "TAINTS/TOLERATIONS/AFFINITY"
     bookmarks:
     - url: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
@@ -66,7 +66,7 @@
   - folder: "PODS"
     bookmarks:
     - url: https://kubernetes.io/docs/tasks/configure-pod-container/
-      name: "Configure Pods and Containers - Kubernetes"
+      name: "Configure Pods and Containers"
     - url: https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/
       name: "Create static Pods - Kubernetes"
     - url: https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/
@@ -108,11 +108,11 @@
     - url: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#podsecuritycontext-v1-core
       name: "PodSecurityContext - API Docs"
     - url: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
-      name: "Configuring a Security Context for a Pod or Container"
+      name: "SecurityContext (tutorial) - Configuring a Security Context for a Pod or Container"
     - url: https://kubernetes.io/docs/tutorials/clusters/seccomp/
-      name: "Restrict a Container's Syscalls with Seccomp"
+      name: "Seccomp - Restrict a Container's Syscalls with Seccomp"
     - url: https://kubernetes.io/docs/tutorials/clusters/apparmor/
-      name: "Restrict a Container's Access to Resources with AppArmor"
+      name: "AppArmor - Restrict a Container's Access to Resources with AppArmor"
     - url: https://kubernetes.io/docs/concepts/containers/runtime-class
       name: "Customizing a Pod's Runtime Class"
   - folder: "DEPLOYMENTS"
