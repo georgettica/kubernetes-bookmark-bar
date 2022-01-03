@@ -51,7 +51,7 @@
       name: "Controlling Access to the Kubernetes API"
   - folder: "CERTIFICATES"
     bookmarks:
-    - url: https://kubernetes.io/docs/concepts/cluster-administration/certificates/#openssl
+    - url: https://kubernetes.io/docs/tasks/administer-cluster/certificates/#openssl
       name: "openssl commands"
     - url: https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/#create-a-certificate-signing-request-object-to-send-to-the-kubernetes-api
       name: "CSR"
