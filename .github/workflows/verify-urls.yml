@@ -15,7 +15,21 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2.3.4
-    - name: Check URLs
-      uses: paramt/url-checker@master
+    - name: Setup golang
+      uses: actions/setup-go@v2.1.5
       with:
-        files: "bookmark.yaml,README.adoc"
+        go-version: x
+    - name: Install vl
+      run: go install github.com/npxbr/verify-links/cmd/vl@latest
+    # TODO: add caching for this install 
+    - name: Check URLs
+      run: |
+       good_urls_regex='https://kubernetes.io|https://github.com/aquasecurity/trivy|https://falco.org/docs|https://github.com/kubernetes'
+       bookmark_data=$(vl bookmark.yaml)
+
+       bad_urls=$(echo "${bookmark_data}" |tail -n +2 | grep -c -vE "${good_urls_regex}" || true)
+       if [[ $(echo "${bad_urls}") -ne 0 ]]; then
+         echo "bad bookmarks found, stopping"
+         echo "${bad_urls}"
+         exit 1
+       fi
