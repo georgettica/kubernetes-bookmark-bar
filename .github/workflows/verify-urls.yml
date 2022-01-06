@@ -21,7 +21,7 @@ jobs:
         go-version: x
     - name: Install vl
       run: go install github.com/npxbr/verify-links/cmd/vl@latest
-    # TODO: add caching for this install
+    # TODO: add caching for this install 
     - name: Check URLs
       run: |
        good_urls_regex='https://kubernetes.io|https://github.com/aquasecurity/trivy|https://falco.org/docs|https://github.com/kubernetes'
