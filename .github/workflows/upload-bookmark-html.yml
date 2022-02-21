@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run the bookmark generation code
-        uses: docker://quay.io/rogreen/bookmark-generator:latest
+        uses: docker://ghcr.io/georgettica/bookmark-generator:master
         with:
           args: python3 /tmp/test/bookmark_generator.py -o bookmark.html bookmark.yaml 
 
