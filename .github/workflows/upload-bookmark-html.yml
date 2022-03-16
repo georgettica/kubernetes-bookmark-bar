@@ -32,7 +32,7 @@ jobs:
           args: python3 /tmp/test/bookmark_generator.py -o bookmark.html bookmark.yaml 
 
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.2
+        uses: actions/upload-artifact@v3
         with:
           # Artifact name
           name: bookmark
