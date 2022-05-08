@@ -25,11 +25,15 @@ jobs:
     - name: Check URLs
       run: |
        good_urls_regex='https://kubernetes.io|https://github.com/aquasecurity/trivy|https://falco.org/docs|https://github.com/kubernetes'
-       bookmark_data=$(vl bookmark.yaml)
+       echo "getting bookmark data"
+
+       bookmark_data=$(vl bookmark.yaml || true)
 
        bad_urls=$(echo "${bookmark_data}" |tail -n +2 | grep -c -vE "${good_urls_regex}" || true)
        if [[ $(echo "${bad_urls}") -ne 0 ]]; then
          echo "bad bookmarks found, stopping"
          echo "${bad_urls}"
+         echo "additional info can maybe be gleaned from and additional run with no capturing"
+         vl bookmark.yaml
          exit 1
        fi
