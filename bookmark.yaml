@@ -39,7 +39,7 @@
       name: "reading on command line tools"
     - url: https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/
       name: "Encrypting Secret Data in Etcd"
-    - url: https://kubernetes.io/docs/tasks/debug-application-cluster/audit/
+    - url: https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/
       name: "Auditing - Kubernetes"
     - url: https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
       name: "Kubernetes Dashboard - Installation"
