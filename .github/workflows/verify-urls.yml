@@ -18,7 +18,7 @@ jobs:
     - name: Setup golang
       uses: actions/setup-go@v3
       with:
-        go-version: x
+        check-latest: true
     - name: Install vl
       run: go install github.com/npxbr/verify-links/cmd/vl@latest
     # TODO: add caching for this install 
