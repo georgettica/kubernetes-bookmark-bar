@@ -20,7 +20,7 @@ jobs:
       with:
         check-latest: true
     - name: Install vl
-      run: go install github.com/npxbr/verify-links/cmd/vl@latest
+      run: go install github.com/ellisonleao/vl/cmd/vl@latest
     # TODO: add caching for this install 
     - name: Check URLs
       run: |
