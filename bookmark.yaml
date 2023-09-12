@@ -104,9 +104,12 @@
     - url: https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/
       name: "Managing Service Accounts"
     - url: https://kubernetes.io/docs/concepts/policy/pod-security-policy/
-      name: "Pod Security Policies"
-    - url: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#podsecuritycontext-v1-core
-      name: "PodSecurityContext - API Docs"
+      name: "Pod Security Policies (deprecated)"
+    - url: https://kubernetes.io/docs/tasks/configure-pod-container/migrate-from-psp/
+      name: "migrate away from PodSecurityContext"
+    # deprecated :(
+    # - url: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#podsecuritycontext-v1-core
+    #   name: "PodSecurityContext - API Docs"
     - url: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
       name: "SecurityContext (tutorial) - Configuring a Security Context for a Pod or Container"
     - url: https://kubernetes.io/docs/tutorials/clusters/seccomp/
