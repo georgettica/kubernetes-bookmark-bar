@@ -14,13 +14,13 @@ jobs:
     name: Check for broken links
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Setup golang
       uses: actions/setup-go@v4
       with:
         check-latest: true
     - name: Install vl
-      run: go install github.com/ellisonleao/vl/cmd/vl@latest
+      run: go install github.com/npxbr/verify-links@latest
     # TODO: add caching for this install 
     - name: Check URLs
       run: |
