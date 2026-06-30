@@ -141,9 +141,9 @@
       name: "PersistentVolume"
     - url: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims
       name: "PersistentVoluneClaim"
-    - url: https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#create-a-persistentvolume
+    - url:  https://kubernetes.io/docs/tutorials/configuration/configure-persistent-volume-storage/#create-a-persistentvolume
       name: "PV, PVC and Mounting"
-    - url: https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
+    - url:  https://kubernetes.io/docs/tutorials/configuration/configure-persistent-volume-storage/
       name: "Hostpath PV"
     - url: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#claims-as-volumes
       name: "Mount Volume in Container"
